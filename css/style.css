@@ -1,10 +1,16 @@
 
 .footer {
+	/*
 	padding-top: 20px;
 	padding-bottom: 0px;
 	padding-left: 100px;
 	padding-right: 100px;
-	background-color: silver;
+	*/
+	background-color: #732319; /* #800000   */
+	color: #FFCCCC;
+}
+.footer a {
+	color: #009933;
 }
 .bosluk {
 	/*background-color: lightgreen;*/
@@ -21,7 +27,6 @@
 }
 
 
-
 /* navbar */
 
 .navbar-default {
@@ -32,7 +37,7 @@
 	color: #f1ecec;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-	color: #0e0d12;
+	color: green; /* #0e0d12 */
 }
 .navbar-default .navbar-text {
 	color: #f1ecec;

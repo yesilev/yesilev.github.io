@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="tr">
+<head>
+	<title>İletişim</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery-ui-1.10.3.custom.css">
+	<link rel="stylesheet" type="text/css" href="css/libs/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive-menu.css">
+
+
+	<!-- Fix ie9  -->
+	<!--[if IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css">
+	<![endif]-->
+	<style>
+		#map_canvas {
+	        /*width: 500px;*/
+	        height: 820px;
+	      }
+
+	</style>
+
+</head>
+<body>
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<span class="loader" data-loading-text="loading">
+		</span>
+	</div>
+	<!-- END / PRELOADER -->
+	<div class="md-hotel">
+		<div id="mp-pusher" class="mp-pusher">
+			<header class="md-header">
+				<div class="container clearfix">
+					<div class="grid_12">
+
+
+						<!-- Logo -->
+						<h1 class="md-logo">
+							<a href="index.html">
+								<h1 style="color: #74F5E0;margin: 16px 12px;">Kırlangıç Pansiyon</h1>
+							</a>
+						</h1>
+						
+
+
+						<!-- Menu -->
+						<nav id="main-nav" class="nav-collapse">
+							<ul id="main-menu" class="md-menu">
+								<li><a href="index.html">Anasayfa</a></li>
+								<!--<li><a href="accomodation.html">Accomodation</a></li>
+								<li class="have-submenu"><a href="#">Pages</a>
+									<div class="sub-menu">
+										<ul class="sub-menu-inner">
+											<li><a href="blog.html">Blog</a></li>
+											<li><a href="testimonial.html">Testimonials</a></li>
+											<li><a href="shortcode.html">Shortcode</a></li>
+											<li><a href="typography.html">Typography</a></li>
+											<li><a href="booking-cart.html">Booking Cart</a></li>
+											<li><a href="checkout.html">CheckOut</a></li>
+											<li><a href="check-available.html">Check Available</a></li>
+										</ul>
+									</div>
+								</li>-->
+								<li><a href="room-detail.html">Odaları Gör</a></li>
+								<li><a href="world-of-flawles.html">Fotoğraflar</a></li>
+								<li><a href="contact.html">İletişim</a></li>
+							</ul>
+
+							
+						</nav>
+
+						
+						<!-- Icon Responsvie Menu -->
+						<a id="sys_btn_toogle_menu" class="btn-toogle-res-menu" href="#alternate-menu"></a>
+
+					</div>
+				</div>
+			</header><!-- /.md-header -->
+
+
+			<!-- Menu Responsive -->
+			<nav id="mp-menu" class="mp-menu alternate-menu mp-overlap right-side">
+	            <div class="mp-level">
+	                <h2>Menu</h2>
+	                <ul>
+	                	<li>
+	                    	<a href="index.html">Anasayfa</a>
+	                    </li>
+	                    <!--<li>
+	                    	<a href="accomodation.html">Accomodation</a>
+	                    </li>
+	                    <li class="has-sub">
+	                        <a href="#">Pages</a>
+	                        <div class="mp-level">
+	                            <h2>Pages</h2>
+	                            <a class="mp-back" href="#">Back</a>
+	                            <ul>
+	                                <li><a href="blog.html">Blog</a></li>
+									<li><a href="testimonial.html">Testimonials</a></li>
+									<li><a href="shortcode.html">Shortcode</a></li>
+									<li><a href="typography.html">Typography</a></li>
+									<li><a href="booking-cart.html">Booking Cart</a></li>
+									<li><a href="checkout.html">CheckOut</a></li>
+									<li><a href="check-available.html">Check Available</a></li>
+	                            </ul>
+	                        </div>
+	                    </li>-->
+	                    <li>
+	                        <a href="room-detail.html">Odaları Gör</a>
+	                    </li>
+	                    <li>
+	                        <a href="world-of-flawles.html">Fotoğraflar</a>
+	                    </li>
+	                    <li>
+	                    	<a href="contact.html">İletişim</a>
+	                    </li>
+						<li>
+							<!-- Language Bar -->
+							
+						</li>
+	                </ul>
+	            </div>
+	        </nav>
+	        <!-- Menu Responsive End -->
+
+
+			<section class="md-contact">
+				<figure class="bg-contact">
+					<img src="pnsyn/11.jpg" alt="">
+					<div class="bg-pattern"></div>
+				</figure>
+				<div class="contact-wrap">
+					<div class="layout-left">
+						<header class="box-heading heading-large">
+							K
+							<div class="decription-override">
+								<h2 class="h1">İletişim</h2>
+								<p>Bize Ulaşın..</p>
+							</div>
+						</header>
+						<p id="contact-content" class="description">Formu doldurarak yada kirlangicpansiyon@gmail.com' a yazarak bize ulaşabilirsiniz. </p>
+						<div class="row form-contact">
+							<form id="contact-form" class="label-placeholder" action="processContact.php" method="post">
+								<div class="row clearfix">
+									<div class="form-group">
+										<input id="contact-name" type="text" name="name" class="input-control" placeholder="İsim">
+									</div>
+									<div class="form-group">
+										<input id="contact-email" type="text" name="email" class="input-control" placeholder="E-posta">
+									</div>
+								</div>
+								<div class="form-group">
+									<textarea  id="contact-textarea"  class="input-control" placeholder="Mesaj" name="message"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-alter btn-border btn-border-brown" id="submit-contact">GÖNDER</button>
+								</div>
+							</form>
+						</div><!-- /.form-contact -->
+						<div class="address-wrap clearfix">
+							<div class="address-info">
+								<ul>
+									<li><i class="icon icon-map-white"></i>Hacılar Meydanı Mahallesi,Prof. Dr. Necmettin Erbakan Caddesi No: 15 AMASYA</li>
+									<li><i class="icon icon-phone"></i>(0541) 788 8096</li>
+									<li><i class="icon icon-mail"></i>kirlangicpansiyon@gmail.com</li>
+								</ul>
+							</div>
+							<div class="address-map">
+								<div>
+									<i class="icon icon-map-brown"></i>
+									<a class="popup-gmaps" href="#">Harita</a>
+								</div>
+							</div>
+						</div><!-- /.address-wrap -->
+					</div>
+				</div>
+			</section><!-- /.md-wrapper  -->
+
+			
+			<!-- Footer -->
+			<footer class="md-footer">
+				<div class="container clearfix">
+					<div class="grid_12">
+						<div class="grid_3 footer-column inner-left">
+							<div class="hotel-address">
+								<h3>KIRLANGIÇ PANSİYON</h3>
+								<div class="footer-content">
+									<address>
+										<p>Hacılar Meydanı Mahallesi </p>
+										<p>Prof. Dr. Necmettin Erbakan Caddesi</p>
+										<p>No: 15 AMASYA</p>
+									</address>
+									<p> <a href="#" class="website">© amasyayesilev.com</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="grid_4 footer-column inner-right">
+							<div class="hotel-news">
+								<h3>KIRLANGIÇ PANSİYON.</h3>
+								
+							</div>
+						</div>
+						<div class="grid_5 footer-column">
+							<div class="hotel-contact">
+								<h3>İletişim</h3>
+								<ul class="footer-content">
+									<li>Telefon <span class="hotel-number">(0541) 788 8096</span></li>
+									<li>Rezervasyon <span class="hotel-number">(0358) 212 0502</span></li>
+									<li>E-posta <span class="hotel-number">kirlangicpansiyon@gmail.com</span></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<div class="grid_12">
+						<div class="footer-social">
+							<div class="social-inner">
+								<h4>Bizi takip edin</h4>
+								<span class="social-group">
+									<a href="#"><i class="icon icon-facebook"></i></a>
+									<a href="#"><i class="icon icon-twitter"></i></a>
+									<a href="#"><i class="icon icon-google"></i></a>
+									<a href="#"><i class="icon icon-dribbble"></i></a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</footer>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/mlpushmenu.js"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.map.js"></script>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+	$(function() {
+		"use strict";
+		$("#arrival-date, #departure-date").datepicker({
+			// showOn: "button",
+			// buttonImage: "images/calendar.gif",
+			// buttonImageOnly: true
+		});
+
+		// Script for Popup Map Address
+ 	// 	$('.popup-gmaps').magnificPopup({
+		// 	// disableOn: 700,
+		// 	type: 'iframe',
+		// 	mainClass: 'md-map',
+		// 	removalDelay: 160,
+		// 	preloader: false,
+		// 	fixedContentPos: false
+		// });
+
+	$('.popup-gmaps').magnificPopupMap();
+
+		if($("#contact-form").length > 0){
+	      // Validate the contact form
+	      $('#contact-form').validate({
+	        // Add requirements to each of the fields
+	        rules: {
+	          name: {
+	            required: true,
+	            minlength: 2
+	          },
+	          email: {
+	            required: true,
+	            email: true
+	          },
+	          message: {
+	            required: true,
+	            minlength: 10
+	          }
+	        },
+
+	        // Specify what error messages to display
+	        // when the user does something horrid
+	        messages: {
+	          name: {
+	            required: "Please enter your name.",
+	            minlength: $.format("At least {0} characters required.")
+	          },
+	          email: {
+	            required: "Please enter your email.",
+	            email: "Please enter a valid email."
+	          },
+	          message: {
+	            required: "Please enter a message.",
+	            minlength: $.format("At least {0} characters required.")
+	          }
+	        },
+
+	        // Use Ajax to send everything to processForm.php
+	        submitHandler: function(form) {
+	          $("#submit-contact").html("Sending...");
+	          $(form).ajaxSubmit({
+	            success: function(responseText, statusText, xhr, $form) {
+	              $("#contact-content").slideUp(600, function() {
+					$("#contact-content").html(responseText).slideDown(600);
+				  });
+				  $("#submit-contact").html("Submit");
+	            }
+	          });
+	          return false;
+	        }
+	      });
+	    }
+	});
+
+ 	
+ 	</script>
+
+
+</body>
+</html>
